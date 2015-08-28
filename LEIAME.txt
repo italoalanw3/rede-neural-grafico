@@ -1,0 +1,26 @@
+Antes de começar, tenha o Python instalado e com o mesmo nas variaveis de ambiente.
+
+Execute o cmd como administrador
+
+- Crie um ambiente virtual com o comando: virtualenv rede-neural
+	- Este comando cria uma pasta chamada "rede-neural" com as seguintes pastas:
+		- "Include"
+		- "Lib"
+		- "Scripts"
+	- Ative, entrando na pasta Scripts dentro de rede-neural e execute o arquivo activate pelo cmd
+		- activate
+
+# Com isso o ambiente está montado e o projeto pode ser executado, volte agora no cmd para a pasta
+onde encontra-se o aplicativo/projeto "rede-neural".
+
+# Instalando dependencias
+- Entre na pasta do projeto, onde encontra-se o arquivo: redeneural.py e requirements.txt
+
+	Execute: pip install -r requirements.txt
+
+# Executando o aplicativo
+- Entre na pasta rede-neural, onde encontra-se o arquivo: redeneural.py
+	- Execute: python redeneural.py runserver
+
+- Acesse: localhost:8000
+# Pronto
